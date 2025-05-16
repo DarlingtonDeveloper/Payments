@@ -1,0 +1,5 @@
+region                  = "eu-west-1"
+project                 = "cmr"
+environment             = "uat"
+aws_account_name        = "awseucommerce2pp"
+network_environment_tag = "pp"

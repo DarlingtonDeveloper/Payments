@@ -1,0 +1,11 @@
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Api.Contracts\bin\Debug\net8.0\Cox.Cmr.Payment.Api.Contracts.deps.json
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Api.Contracts\bin\Debug\net8.0\Cox.Cmr.Payment.Api.Contracts.dll
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Api.Contracts\bin\Debug\net8.0\Cox.Cmr.Payment.Api.Contracts.pdb
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Api.Contracts\obj\Debug\net8.0\Cox.Cmr.Payment.Api.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Api.Contracts\obj\Debug\net8.0\Cox.Cmr.Payment.Api.Contracts.AssemblyInfoInputs.cache
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Api.Contracts\obj\Debug\net8.0\Cox.Cmr.Payment.Api.Contracts.AssemblyInfo.cs
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Api.Contracts\obj\Debug\net8.0\Cox.Cmr.Payment.Api.Contracts.csproj.CoreCompileInputs.cache
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Api.Contracts\obj\Debug\net8.0\Cox.Cmr.Payment.Api.Contracts.dll
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Api.Contracts\obj\Debug\net8.0\refint\Cox.Cmr.Payment.Api.Contracts.dll
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Api.Contracts\obj\Debug\net8.0\Cox.Cmr.Payment.Api.Contracts.pdb
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Api.Contracts\obj\Debug\net8.0\ref\Cox.Cmr.Payment.Api.Contracts.dll

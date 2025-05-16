@@ -1,0 +1,12 @@
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Domain\bin\Debug\net8.0\Cox.Cmr.Payment.Domain.deps.json
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Domain\bin\Debug\net8.0\Cox.Cmr.Payment.Domain.dll
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Domain\bin\Debug\net8.0\Cox.Cmr.Payment.Domain.pdb
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Domain\obj\Debug\net8.0\Cox.Cmr.Payment.Domain.csproj.AssemblyReference.cache
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Domain\obj\Debug\net8.0\Cox.Cmr.Payment.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Domain\obj\Debug\net8.0\Cox.Cmr.Payment.Domain.AssemblyInfoInputs.cache
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Domain\obj\Debug\net8.0\Cox.Cmr.Payment.Domain.AssemblyInfo.cs
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Domain\obj\Debug\net8.0\Cox.Cmr.Payment.Domain.csproj.CoreCompileInputs.cache
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Domain\obj\Debug\net8.0\Cox.Cmr.Payment.Domain.dll
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Domain\obj\Debug\net8.0\refint\Cox.Cmr.Payment.Domain.dll
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Domain\obj\Debug\net8.0\Cox.Cmr.Payment.Domain.pdb
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Domain\obj\Debug\net8.0\ref\Cox.Cmr.Payment.Domain.dll

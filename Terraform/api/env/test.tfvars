@@ -1,0 +1,5 @@
+region                  = "eu-west-1"
+project                 = "cmr"
+environment             = "test"
+aws_account_name        = "awseucommerce2np"
+network_environment_tag = "np"

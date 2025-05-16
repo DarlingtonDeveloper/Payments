@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Cox.Cmr.Payment.Domain</RootNamespace>
+    </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Auth0.AuthenticationApi" Version="7.28.0" />
+    <PackageReference Include="Auth0.Core" Version="7.28.0" />
+    <PackageReference Include="Auth0.ManagementApi" Version="7.28.0" />
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="AWS.Cryptography.EncryptionSDK" Version="4.1.0" />
+    <PackageReference Include="AWSSDK.KeyManagementService" Version="3.7.400.43" />
+    <PackageReference Include="Cdp.EventClient" Version="3.0.2" />
+    <PackageReference Include="Cox.Cdp.Auth" Version="0.0.12" />
+    <PackageReference Include="Cox.Cdp.Common" Version="0.0.3" />
+    <PackageReference Include="FluentValidation" Version="11.10.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.10" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Serilog.AspNetCore" Version="8.0.3" />
+  </ItemGroup>
+
+</Project>

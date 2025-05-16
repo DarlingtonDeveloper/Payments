@@ -1,0 +1,45 @@
+#version: '3.8'
+name: Payment
+services:
+  payment-dynamodb-seeder:
+    container_name: payment-dynamodb-seeder
+    working_dir: /home/data
+    volumes:
+      - ./Tooling/dynamodb/:/home/data
+    entrypoint: [ "/bin/sh" ]
+    command: -c "bash init_database.sh --debug"
+    image: amazon/aws-cli
+    environment:
+      - AWS_ACCESS_KEY_ID=something
+      - AWS_SECRET_ACCESS_KEY=something
+      - REGION=eu-west-1
+      - DYNAMODB_ENDPOINT=https://localhost.localstack.cloud:4566
+    networks:
+      - cmr-platform
+
+  payment-api:
+    container_name: payment-api
+    build:
+      context: .
+      args:
+        ARTIFACTORY_SOURCE: ${ARTIFACTORY_SOURCE:-https://artifactory.coxautoinc.com/artifactory/api/nuget/v3/cai-nuget/index.json}
+        ARTIFACTORY_USERNAME: ${ARTIFACTORY_USERNAME}
+        ARTIFACTORY_API_KEY: ${ARTIFACTORY_API_KEY}
+    ports:
+      - "8094:80"
+    environment:
+      # AWS environment variables need to be set for authentication even if they are placeholder values
+      - AWS_ACCESS_KEY_ID=something
+      - AWS_SECRET_ACCESS_KEY=something
+      - ASPNETCORE_ENVIRONMENT=Docker
+      - Serilog__WriteTo__0__Args__configure__0__Args__licenseKey=insert-your-local-key-here
+      - Serilog__WriteTo__0__Args__configure__0__Args__applicationName=cmr-local-payment-api
+      - NEW_RELIC_LICENSE_KEY=insert-your-local-key-here
+      - NEW_RELIC_APP_NAME=cmr-local-payment-api
+    networks:
+      - cmr-platform
+
+networks:
+  cdp-platform:
+    name: cmr-platform
+    external: true

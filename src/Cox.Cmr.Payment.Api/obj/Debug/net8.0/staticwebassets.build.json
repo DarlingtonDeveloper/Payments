@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "a8Qn74y/+bA4AaMYJ6CF/V2rvnR//1JowomoclGloGs=",
+  "Source": "Cox.Cmr.Payment.Api",
+  "BasePath": "_content/Cox.Cmr.Payment.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

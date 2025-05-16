@@ -1,0 +1,15 @@
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Infrastructure\bin\Debug\net8.0\Cox.Cmr.Payment.Infrastructure.deps.json
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Infrastructure\bin\Debug\net8.0\Cox.Cmr.Payment.Infrastructure.dll
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Infrastructure\bin\Debug\net8.0\Cox.Cmr.Payment.Infrastructure.pdb
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Infrastructure\bin\Debug\net8.0\Cox.Cmr.Payment.Domain.dll
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Infrastructure\bin\Debug\net8.0\Cox.Cmr.Payment.Domain.pdb
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Infrastructure\obj\Debug\net8.0\Cox.Cmr.Payment.Infrastructure.csproj.AssemblyReference.cache
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Infrastructure\obj\Debug\net8.0\Cox.Cmr.Payment.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Infrastructure\obj\Debug\net8.0\Cox.Cmr.Payment.Infrastructure.AssemblyInfoInputs.cache
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Infrastructure\obj\Debug\net8.0\Cox.Cmr.Payment.Infrastructure.AssemblyInfo.cs
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Infrastructure\obj\Debug\net8.0\Cox.Cmr.Payment.Infrastructure.csproj.CoreCompileInputs.cache
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Infrastructure\obj\Debug\net8.0\Cox.Cmr..C2B02874.Up2Date
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Infrastructure\obj\Debug\net8.0\Cox.Cmr.Payment.Infrastructure.dll
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Infrastructure\obj\Debug\net8.0\refint\Cox.Cmr.Payment.Infrastructure.dll
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Infrastructure\obj\Debug\net8.0\Cox.Cmr.Payment.Infrastructure.pdb
+C:\repos\cmr-payment-api\src\Cox.Cmr.Payment.Infrastructure\obj\Debug\net8.0\ref\Cox.Cmr.Payment.Infrastructure.dll

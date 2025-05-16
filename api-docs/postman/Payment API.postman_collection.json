@@ -1,0 +1,211 @@
+{
+	"info": {
+		"_postman_id": "03a07ead-96f3-4cdf-98cb-f04d17eba057",
+		"name": "Payment API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33988026"
+	},
+	"item": [
+		{
+			"name": "Get PaymentMetod by Id - 200",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {},
+				"disableBodyPruning": true,
+				"protocolVersion": "http2"
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "value",
+							"value": "{{paymentAPIKey}}",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "x-api-key",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{paymentApiUrl}}/v1/payment-method/{{paymentMethodId}}",
+					"host": [
+						"{{paymentApiUrl}}"
+					],
+					"path": [
+						"v1",
+						"payment-method",
+						"{{paymentMethodId}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Payment Method",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {},
+				"protocolVersion": "http2"
+			},
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "x-api-key",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "{{paymentAPIKey}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tenantId\": \"{{paymentTenantId}}\",\r\n    \"organisationId\": \"{{paymentOrganisationId}}\",    \r\n    \"type\": \"BankAccount\",\r\n    \"bankAccount\": {\r\n        \"bankName\": \"Bank Name\",\r\n        \"accountName\": \"Account Name\",\r\n        \"accountNumber\": \"12345678\",\r\n        \"sortCode\": \"123456\"\r\n    },\r\n    \"billingDetails\": {\r\n        \"name\": \"AccountName\",\r\n        \"address\": {\r\n            \"line1\": \"string\",\r\n            \"line2\": \"string\",\r\n            \"town\": \"string\",\r\n            \"postalCode\": \"string\",\r\n            \"country\": \"string\"\r\n        }\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{paymentApiUrl}}/v1/payment-method",
+					"host": [
+						"{{paymentApiUrl}}"
+					],
+					"path": [
+						"v1",
+						"payment-method"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Health check",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {},
+				"protocolVersion": "http2",
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InIyclVOS0F0TTNWRVRiUWxjSkxvZCJ9.eyJjZHAiOnsiYWNjb3VudElkcyI6W10sImVtYWlsIjoidmlvcmljYS5vcm9zQGNveGF1dG9pbmMuY29tIiwiaXNDb3hVc2VyIjp0cnVlLCJvcmdhbmlzYXRpb25JZHMiOltdLCJyb2xlSWRzIjpbIm1pcy10ZWFtLW1lbWJlciIsInBvcnRhbC11c2VyLW1hbmFnZXIiLCJzdXBlci11c2VyIl0sInRlbmFudElkIjoiMmExMWY4YjItYTliYS00Njk0LWIxY2ItMGY2MTE2Mjg5MWE2IiwidXNlRGJQZXJtaXNzaW9ucyI6ZmFsc2UsInVzZXJJZCI6IjM1MzNhN2JhLWI3ZDktNDc5Yy1hM2Y2LTU4MWRlMzkwY2RlZCJ9LCJpc3MiOiJodHRwczovL2F1dGgudGVzdC5jb3hhdXRvY29ubmVjdC5jb20vIiwic3ViIjoic2FtbHB8b2t0YXxWaW9yaWNhLk9yb3NAY294YXV0b2luYy5jb20iLCJhdWQiOlsiaHR0cHM6Ly9hdXRoLnRlc3QuY294YXV0b2Nvbm5lY3QuY29tIiwiaHR0cHM6Ly9jZHAtdGVzdC51ay5hdXRoMC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNzQyMjIxMTA5LCJleHAiOjE3NDIyMjE3MDksInNjb3BlIjoib3BlbmlkIHByb2ZpbGUgb2ZmbGluZV9hY2Nlc3MiLCJhenAiOiJaRFRPdXFJSnVZZGx2WGczRFlobWNMcW9TUHFtb1BiTiJ9.ZX2rZzPZZFsRy3UVjYkw_kJFuc4qHskt56pxigTQPGCX8RpZ0KWauW_vfp_3is8YO1Iy6Vr5RO67UhVyx_F6xreu-RRMIK7GoHbCNYcSPBCLTAMRBMiQL_7rL3Iv-0tMtFN9CEkSZM-JvSIJ52Lea4T6jkgxVD9X-2RnHL2yDbZJgr77uYb88SIEj2eIeaU8L1PnVeH4aOExKlKXN-S8DyRNgtjZ0VWHLWgjXdNZLPuHnxe6lTZvu9VlPfIm4g1g4UF4CK3HQNnLlTI4X6ApGshUWns_RCU0r3qh2hCpJR0Gvt5BcrT0jH7Ikx8W7rOjAuuA-yVT2ypBxugAcE1cbw",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{paymentApiUrl}}/health",
+					"host": [
+						"{{paymentApiUrl}}"
+					],
+					"path": [
+						"health"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

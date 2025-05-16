@@ -1,0 +1,578 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\repos\\cmr-payment-api\\test\\Cox.Cmr.Payment.Api.Tests\\Cox.Cmr.Payment.Api.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\repos\\cmr-payment-api\\src\\Cox.Cmr.Payment.Api.Contracts\\Cox.Cmr.Payment.Api.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\cmr-payment-api\\src\\Cox.Cmr.Payment.Api.Contracts\\Cox.Cmr.Payment.Api.Contracts.csproj",
+        "projectName": "Cox.Cmr.Payment.Api.Contracts",
+        "projectPath": "C:\\repos\\cmr-payment-api\\src\\Cox.Cmr.Payment.Api.Contracts\\Cox.Cmr.Payment.Api.Contracts.csproj",
+        "packagesPath": "C:\\Users\\NKHALID\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\cmr-payment-api\\src\\Cox.Cmr.Payment.Api.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NKHALID\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory.coxautoinc.com/artifactory/api/nuget/v3/cai-nuget/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repos\\cmr-payment-api\\src\\Cox.Cmr.Payment.Api\\Cox.Cmr.Payment.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\cmr-payment-api\\src\\Cox.Cmr.Payment.Api\\Cox.Cmr.Payment.Api.csproj",
+        "projectName": "Cox.Cmr.Payment.Api",
+        "projectPath": "C:\\repos\\cmr-payment-api\\src\\Cox.Cmr.Payment.Api\\Cox.Cmr.Payment.Api.csproj",
+        "packagesPath": "C:\\Users\\NKHALID\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\cmr-payment-api\\src\\Cox.Cmr.Payment.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NKHALID\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory.coxautoinc.com/artifactory/api/nuget/v3/cai-nuget/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\repos\\cmr-payment-api\\src\\Cox.Cmr.Payment.Api.Contracts\\Cox.Cmr.Payment.Api.Contracts.csproj": {
+                "projectPath": "C:\\repos\\cmr-payment-api\\src\\Cox.Cmr.Payment.Api.Contracts\\Cox.Cmr.Payment.Api.Contracts.csproj"
+              },
+              "C:\\repos\\cmr-payment-api\\src\\Cox.Cmr.Payment.Domain\\Cox.Cmr.Payment.Domain.csproj": {
+                "projectPath": "C:\\repos\\cmr-payment-api\\src\\Cox.Cmr.Payment.Domain\\Cox.Cmr.Payment.Domain.csproj"
+              },
+              "C:\\repos\\cmr-payment-api\\src\\Cox.Cmr.Payment.Infrastructure\\Cox.Cmr.Payment.Infrastructure.csproj": {
+                "projectPath": "C:\\repos\\cmr-payment-api\\src\\Cox.Cmr.Payment.Infrastructure\\Cox.Cmr.Payment.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AWSSDK.Extensions.NETCore.Setup": {
+              "target": "Package",
+              "version": "[3.7.301, )"
+            },
+            "Amazon.AspNetCore.DataProtection.SSM": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Asp.Versioning.Mvc": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Auth0.AspNetCore.Authentication": {
+              "target": "Package",
+              "version": "[1.4.1, )"
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "AutoMapper.Extensions.EnumMapping": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Cox.Cdp.Api": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Cox.Cdp.Auth": {
+              "target": "Package",
+              "version": "[0.0.12, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.FeatureManagement": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "NewRelic.Agent.Api": {
+              "target": "Package",
+              "version": "[10.33.1, )"
+            },
+            "NewRelic.LogEnrichers.Serilog": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[8.4.2, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Serilog.Enrichers.AspNetCore.HttpContext": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Enrichers.Thread": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Serilog.Expressions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Formatting.Compact": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Serilog.Formatting.Json.Rendered": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Serilog.Sinks.Async": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.NewRelic.Logs": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.9.0, )"
+            },
+            "Swashbuckle.AspNetCore.Newtonsoft": {
+              "target": "Package",
+              "version": "[6.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repos\\cmr-payment-api\\src\\Cox.Cmr.Payment.Domain\\Cox.Cmr.Payment.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\cmr-payment-api\\src\\Cox.Cmr.Payment.Domain\\Cox.Cmr.Payment.Domain.csproj",
+        "projectName": "Cox.Cmr.Payment.Domain",
+        "projectPath": "C:\\repos\\cmr-payment-api\\src\\Cox.Cmr.Payment.Domain\\Cox.Cmr.Payment.Domain.csproj",
+        "packagesPath": "C:\\Users\\NKHALID\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\cmr-payment-api\\src\\Cox.Cmr.Payment.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NKHALID\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory.coxautoinc.com/artifactory/api/nuget/v3/cai-nuget/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AWS.Cryptography.EncryptionSDK": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "AWSSDK.KeyManagementService": {
+              "target": "Package",
+              "version": "[3.7.400.43, )"
+            },
+            "Auth0.AuthenticationApi": {
+              "target": "Package",
+              "version": "[7.28.0, )"
+            },
+            "Auth0.Core": {
+              "target": "Package",
+              "version": "[7.28.0, )"
+            },
+            "Auth0.ManagementApi": {
+              "target": "Package",
+              "version": "[7.28.0, )"
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Cdp.EventClient": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "Cox.Cdp.Auth": {
+              "target": "Package",
+              "version": "[0.0.12, )"
+            },
+            "Cox.Cdp.Common": {
+              "target": "Package",
+              "version": "[0.0.3, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repos\\cmr-payment-api\\src\\Cox.Cmr.Payment.Infrastructure\\Cox.Cmr.Payment.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\cmr-payment-api\\src\\Cox.Cmr.Payment.Infrastructure\\Cox.Cmr.Payment.Infrastructure.csproj",
+        "projectName": "Cox.Cmr.Payment.Infrastructure",
+        "projectPath": "C:\\repos\\cmr-payment-api\\src\\Cox.Cmr.Payment.Infrastructure\\Cox.Cmr.Payment.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\NKHALID\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\cmr-payment-api\\src\\Cox.Cmr.Payment.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NKHALID\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory.coxautoinc.com/artifactory/api/nuget/v3/cai-nuget/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\repos\\cmr-payment-api\\src\\Cox.Cmr.Payment.Domain\\Cox.Cmr.Payment.Domain.csproj": {
+                "projectPath": "C:\\repos\\cmr-payment-api\\src\\Cox.Cmr.Payment.Domain\\Cox.Cmr.Payment.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "AutoMapper.Extensions.EnumMapping": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Cox.Cdp.Auth": {
+              "target": "Package",
+              "version": "[0.0.12, )"
+            },
+            "Cox.Cdp.Common": {
+              "target": "Package",
+              "version": "[0.0.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\repos\\cmr-payment-api\\test\\Cox.Cmr.Payment.Api.Tests\\Cox.Cmr.Payment.Api.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\repos\\cmr-payment-api\\test\\Cox.Cmr.Payment.Api.Tests\\Cox.Cmr.Payment.Api.Tests.csproj",
+        "projectName": "Cox.Cmr.Payment.Api.Tests",
+        "projectPath": "C:\\repos\\cmr-payment-api\\test\\Cox.Cmr.Payment.Api.Tests\\Cox.Cmr.Payment.Api.Tests.csproj",
+        "packagesPath": "C:\\Users\\NKHALID\\.nuget\\packages\\",
+        "outputPath": "C:\\repos\\cmr-payment-api\\test\\Cox.Cmr.Payment.Api.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\NKHALID\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory.coxautoinc.com/artifactory/api/nuget/v3/cai-nuget/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\repos\\cmr-payment-api\\src\\Cox.Cmr.Payment.Api\\Cox.Cmr.Payment.Api.csproj": {
+                "projectPath": "C:\\repos\\cmr-payment-api\\src\\Cox.Cmr.Payment.Api\\Cox.Cmr.Payment.Api.csproj"
+              },
+              "C:\\repos\\cmr-payment-api\\src\\Cox.Cmr.Payment.Domain\\Cox.Cmr.Payment.Domain.csproj": {
+                "projectPath": "C:\\repos\\cmr-payment-api\\src\\Cox.Cmr.Payment.Domain\\Cox.Cmr.Payment.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoFixture": {
+              "target": "Package",
+              "version": "[4.18.1, )"
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "Shouldly": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.408/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
